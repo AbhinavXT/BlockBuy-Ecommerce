@@ -1,0 +1,9 @@
+Network: Polygon Mumbai 
+https://mumbai.polygonscan.com/
+
+Market Contract Address = '0xFB5BD75313F0657c324fCFCB63B41cc2EA91C73E'
+https://mumbai.polygonscan.com/address/0x5321b1f4A4fa3F7a962E52E5b3012385A4c5C2e5
+
+Item Contract Address = '0x183A3F85C968CfEC801Fb04c4522bDf7956B34A1'
+https://mumbai.polygonscan.com/address/0x4030A987d2A8AC149fcf25c4b6FcAc23e80b2Fdb
+
