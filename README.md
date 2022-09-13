@@ -1,4 +1,4 @@
-# Blockchain eCommerce Website - BlockBiy
+# Blockchain eCommerce Website - BlockBuy
 
 ## Table of Contents:
   - [Deployed Website url](#deployed-website-url)
@@ -16,7 +16,7 @@
 
 ## Deployed Website url
 
-https://block-buy.vercel.app/
+https://block-buy-ecommerce.vercel.app/
 
 ## Project Description
 
@@ -48,9 +48,9 @@ https://block-buy.vercel.app/
 
 ## Related docs
 
--   [deployed_address.txt](https://github.com/AbhinavXT/BlockBuy/blob/main/deployed_address.txt)
--   [design_pattern_decisions.md](https://github.com/AbhinavXT/BlockBuy/blob/main/design_pattern_decisions.md)
--   [avoiding_common_attacks.md](https://github.com/AbhinavXT/BlockBuy/blob/main/avoiding_common_attacks.md)
+-   [deployed_address.txt](https://github.com/AbhinavXT/BlockBuy-Ecommerce/blob/main/deployed_address.txt)
+-   [design_pattern_decisions.md](https://github.com/AbhinavXT/BlockBuy-Ecommerce/blob/main/design_pattern_decisions.md)
+-   [avoiding_common_attacks.md](https://github.com/AbhinavXT/BlockBuy-Ecommerce/blob/main/avoiding_common_attacks.md)
 
 ## Directory structure
 
@@ -187,7 +187,7 @@ Market contract deployed to: 'Market contract address'
 item contract deployed to: 'Item contract address'
 ```
 
-1. Copy these addresses and paste them in the [**config.js**](https://github.com/AbhinavXT/BlockBuy/blob/main/client/config.js) file inside the client floder, in place of current addresses.
+1. Copy these addresses and paste them in the [**config.js**](https://github.com/AbhinavXT/BlockBuy-Ecommerce/blob/main/client/config.js) file inside the client floder, in place of current addresses.
 
 ```
 export const itemMarketAddress = 'Market contract address'
@@ -211,9 +211,15 @@ npm run dev
 
 After this you can run and test the dApp locally in your web browser.
 
-### Environment variables (not needed for running project locally)
+### Environment variables 
 
 ```
+// in root folder
 ALCHEMY_MUMBAI_URL =
 ACCOUNT_KEY =
+
+// inside client folder
+NEXT_PUBLIC_ALCHEMY_MUMBAI_URL = 
+NEXT_PUBLIC_INFURA_ID = 
+NEXT_PUBLIC_INFURA_KEY = 
 ```
