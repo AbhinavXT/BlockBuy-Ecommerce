@@ -1,2 +1,3 @@
-export const itemMarketAddress = '0x46CA9E3ca50C0cCfe9893B359E55ae03a9F9c311'
-export const itemContractAddress = '0x31de885D839d928c1Db82e649E0Bf2C1a5ce0C92'
+export const itemMarketAddress = '0x0892c1C335aff37a092C2BbE57e1c48f19d6960B'
+export const itemContractAddress = '0x8916e6C41E8ea23126145D1012E2F344DEF97821'
+

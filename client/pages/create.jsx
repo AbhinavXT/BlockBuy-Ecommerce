@@ -190,7 +190,7 @@ const create = () => {
           />
         </div>
 
-        {fileUrl && <img className="mt-4 rounded" width="350" src={fileUrl} />}
+        {fileUrl && <div className='font-bold text-lg'>Done</div>}
 
         <button
           className="transtion mt-4 rounded bg-gray-800 p-4 text-lg font-bold text-gray-200 duration-500 hover:scale-[1.01] hover:shadow-lg hover:shadow-gray-800"
